@@ -1,4 +1,5 @@
-/*Wireless Robotic Arm Code
+/*Wireless Hand Gesture Robotic Arm 
+ * Receiver Code
  * by R. Pelayo
  * 
  * Control A Robotic Arm Wirelessly Using a Glove With Flex and Motion Sensors
@@ -84,11 +85,6 @@ void loop()
         posGrip = 2000;
       }
       servoWrite(posGrip, servoGrip);
-      /*Serial.print(posBase);
-      Serial.print(" ");
-      Serial.print(posGrip);
-      Serial.print(" ");
-      Serial.println(posExt);*/
     }
     else{
       Serial.println("recv failed");
