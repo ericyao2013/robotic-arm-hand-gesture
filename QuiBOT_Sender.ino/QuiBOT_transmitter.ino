@@ -1,4 +1,5 @@
-/*Wireless Robotic Arm Controller Code
+/*Wireless Hand Gesture Robotic Arm 
+ * Controller/Transmitter Code
  * by R. Pelayo
  * 
  * Control A Robotic Arm Wirelessly Using a Glove With Flex and Motion Sensors
